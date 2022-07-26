@@ -57,10 +57,9 @@ const wrappedPush = (push, args) => {
 ```
 
 from this function we can see THEY GIVE us the webpack magic (which i dont understand how it works WHICH IS WHY i call it magic HEHEHE) AND THIS webpqack magic will HAVE ALL THE MODULES and ALL THE CHUNKS.
-the callback we pass as the 3rd element in the array will give us the webpack magic and in it theres a property that has the cache this will be different for each web app but for discord the property is r.c or c
-THIS HAS the cache or all the functions that have been called or used / imported (i think)
+the callback we pass as the 3rd element in the array will give us the webpack magic (see line 8 of that code wrapper push function) and in the webpack magic theres a property that has the cache or all the functions that have been called or used / imported (i think.) this will be different for each web app but for discord the property is r.c or just c
 
-but the object after the `modules` argument will be huge with many modules you can just look at discords minified code and see how big it is.
+The `modules` argument will be huge with many modules you can just look at discords minified code and see how big it is.
 
 </details>
 
