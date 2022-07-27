@@ -208,4 +208,6 @@ injectAfter(usersModuleObject, 'getUser', (_, args, res) => {
 
 <br />
 
+![](https://i.imgur.com/Aop8bTX.png)
+
 pretty cool eh
