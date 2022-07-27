@@ -102,12 +102,12 @@ now lets make a simple after injector :)
 ```js
 const injectAfter = (moduleObject, functionName, callback) => {
     //THE original function
-    const functionToPatch = moduleObject[functionName];
+    const originalFunction = moduleObject[functionName];
     //replacing the original function with our own :)
     //THIS cant be arrow function because arrow functions dont have this object :P
     moduleObject[functionName] = function () {
         //first run the original function
-        const returnValue = functionToPatch.apply(this, arguments);
+        const returnValue = originalFunction.apply(this, arguments);
         try {
             //run the call back whcih modifies the return value hopefully
             return callback(this, arguments, returnValue);
@@ -173,12 +173,12 @@ function getAllModules() {
 }
 const injectAfter = (moduleObject, functionName, callback) => {
     //THE original function
-    const functionToPatch = moduleObject[functionName];
+    const originalFunction = moduleObject[functionName];
     //replacing the original function with our own :)
     //THIS cant be arrow function because arrow functions dont have this object :P
     moduleObject[functionName] = function () {
         //first run the original function
-        const returnValue = functionToPatch.apply(this, arguments);
+        const returnValue = originalFunction.apply(this, arguments);
         try {
             //run the call back whcih modifies the return value hopefully
             return callback(this, arguments, returnValue);
