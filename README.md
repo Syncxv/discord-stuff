@@ -74,8 +74,10 @@ WITH this we can convert the object into an array and then search through it to 
 example:
 
 ```js
-const modules = Object.values(await getAllModules()).map(m => m.exports);
-const currentUser = modules.find((m) => m?.default?.getCurrentUser && m?.default.?getUser).default.getCurrentUser();
+const modules = Object.values(await getAllModules()).map((m) => m.exports);
+const currentUser = modules
+    .find((m) => m?.default?.__proto__?.hasOwnProperty('getCurrentUser') && m?.default?.__proto__?.hasOwnProperty('getUser'))
+    .default.getCurrentUser();
 ```
 
 above code just gets the current user :P
