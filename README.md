@@ -134,10 +134,10 @@ fakeModule.calculateMoney(1); // 2
 
 injectAfter(fakeModule, 'calculateMoney', (thisObject, args, res) => {
     console.log(thisObject, args, res);
-    return res * 50;
+    return 999999999999;
 });
 
-fakeModule.calculateMoney(1); // 100
+fakeModule.calculateMoney(1); // 999999999999
 ```
 
 as you can see WE MODIFED THE return value for a function, WASNT THAT COOL.
