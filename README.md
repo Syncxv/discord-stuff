@@ -6,7 +6,7 @@ hello this is a collection of scripts and shit that i think are useful gg ez
 
 <h2>Get All Discord Modules</h2>
 
-first what is a module? A module is a function, class etc THAT discord uses for their app
+first what is a module?, A module is a function, class etc THAT discord uses for their app
 LIKE FOR EXAMPLE discord has a function for sorting your friends or function for sending message etc yk
 
 WE CAN INJECT into these functions and modify or completely change how they work
