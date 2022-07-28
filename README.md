@@ -214,14 +214,7 @@ pretty cool eh
 
 # Modifying Ui / Injecting into the ui
 
-<details>
-    <summary>
-        from now on i will use find, findAll etc functions to get modules :) and using powercords injector
-    </summary>
-
-    im gonna use powercords stuff bec i like it :)
-
-</details>
+im gonna use powercords stuff bec i like it :)
 
 <br />
 
