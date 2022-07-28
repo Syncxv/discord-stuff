@@ -220,7 +220,7 @@ im gonna use powercords stuff bec i like it :)
 
 discord uses react to render their sheet. SO if you know react this will be pretty ez.
 
-OK lets try an example. lets say i want to add a button here:
+OK lets try an example. lets say i want to add a div with the text hi here:
 
 ![](https://i.imgur.com/EYYzF94.png)
 
