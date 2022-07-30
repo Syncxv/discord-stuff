@@ -1,0 +1,23 @@
+{
+  "name": "discord-stuff",
+  "version": "1.0.0",
+  "description": "hello this is a collection of scripts and shit that i think are useful gg ez",
+  "main": "coolWebpack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syncxv/discord-stuff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syncxv/discord-stuff/issues"
+  },
+  "homepage": "https://github.com/Syncxv/discord-stuff#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.15"
+  }
+}
