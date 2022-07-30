@@ -44,6 +44,19 @@ let exports = {
 
 add function is being inserted into the exports object :O
 
+<details>
+  <summary>export type</summary>
+    atually idk the real types but heres what they look like to me HEHEHE HA
+
+```ts
+interface exports {
+    [name: string]: any;
+    default: any;
+}
+```
+
+</details>
+
 go to [testing-grounds/src/example1](https://github.com/Syncxv/discord-stuff/tree/master/testing-grounds/src/example1) and go to `index.ts`
 
 when we do `import bruh from './a.ts'` we look for default in the exports object so `exports.default` HOWEVER there is no default so it will result in this error `Module '"C:/discord-stuff/testing-grounds/src/example1/a"' has no default export.` :P
