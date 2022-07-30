@@ -261,6 +261,7 @@ AS you can see the children of res has all the buttons in it :D. SO whatq we nee
 
 ```js
 const { inject } = require('powercord/injector');
+const { React } = require('powercord/webpack');
 inject('cool-id', ChannelTextAreaButtons, 'type', (args, res) => {
     console.log(args, res);
     const element = React.createElement(
