@@ -28,7 +28,9 @@ export function add(x: number, y: number): number {
 ```
 
 IMAGINE this a.js file is a object `{}` and it currently has nothing in it HOWEVER when we do `export ...` we are adding stuff into this object `{}` lets call this object exports :)
-when we do `export function add...` this is whats happening
+
+the above block is being converted to the one below
+(ofc this is not whats atually happening underneath this is a very simplifed version hEHHEE)
 
 ```ts
 let exports = {
