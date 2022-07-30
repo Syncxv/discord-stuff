@@ -27,7 +27,8 @@ export function add(x: number, y: number): number {
 }
 ```
 
-OK lets imagine exports is an object `let exports = {}` and we put the `add` function in it so the object will look like:
+IMAGINE this a.js file is a object `{}` and it currently has nothing in it HOWEVER when we do `export ...` we are adding stuff into this object `{}` lets call this object exports :)
+when we do `export function add...` this is whats happening
 
 ```ts
 let exports = {
@@ -38,6 +39,8 @@ let exports = {
 ```
 
 ![](https://i.imgur.com/6n24HvP.png)
+
+add function is being inserted into the exports object :O
 
 go to [testing-grounds/src/example1](https://github.com/Syncxv/discord-stuff/tree/master/testing-grounds/src/example1) and go to `index.ts`
 
