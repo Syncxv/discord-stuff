@@ -39,7 +39,7 @@ let exports = {
 
 ![](https://i.imgur.com/6n24HvP.png)
 
-go to [testing-grounds/src/example1](https://i.imgur.com/6n24HvP.png) and go to `index.ts`
+go to [testing-grounds/src/example1](https://github.com/Syncxv/discord-stuff/tree/master/testing-grounds/src/example1) and go to `index.ts`
 
 when we do `import bruh from './a.ts'` we look for default in the exports object so `exports.default` HOWEVER there is no default so it will result in this error `Module '"C:/discord-stuff/testing-grounds/src/example1/a"' has no default export.` :P
 
