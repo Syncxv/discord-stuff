@@ -1,3 +1,12 @@
+- [Guild Stuff](#guild-stuff)
+  - [Basic get guild stuff](#basic-get-guild-stuff)
+  - [Get current guild](#get-current-guild)
+  - [Get member count of guild](#get-member-count-of-guild)
+  - [Get guild icon](#get-guild-icon)
+  - [mute a channel for some time hehhe ha](#mute-a-channel-for-some-time-hehhe-ha)
+- [GC stuff](#gc-stuff)
+  - [GC ADDER](#gc-adder)
+
 # Guild Stuff
 
 ## Basic get guild stuff
@@ -9,7 +18,7 @@ const guilds = getGuilds(); // returns object of guilds where key is id {[guildI
 const guildCount = getGuildCount(); // 69
 ```
 
-get current guild
+## Get current guild
 
 ```js
 const { getGuild } = getModule(['getGuild'], false);
@@ -19,14 +28,14 @@ const currentGuild = getGuild(getLastSelectedGuildId());
 const currentGuild = getGuild(getGuildId());
 ```
 
-get member count of guild
+## Get member count of guild
 
 ```js
 const { getGuildId } = getModule(['getLastSelectedGuildId'], false);
 getModule(['getMemberCounts'], false).getMemberCount(getGuildId());
 ```
 
-get guild icon
+## Get guild icon
 
 ```js
 function getGuildIcon(guildId) {
@@ -36,9 +45,7 @@ function getGuildIcon(guildId) {
 }
 ```
 
-## Guild Channel stuff
-
-mute a channel for some time hehhe ha
+## mute a channel for some time hehhe ha
 
 ```js
 function muteChannel(seconds, channelId) {
@@ -65,6 +72,8 @@ muteChannel(900);
 ```
 
 # GC stuff
+
+## GC ADDER
 
 when someone leaves it adds them back :)
 
