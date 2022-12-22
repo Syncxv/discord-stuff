@@ -22,7 +22,7 @@ const { getModule } = require('powercord/webpack');
 const ChannelTextAreaButtons = getModule((m) => m?.default?.type?.displayName === 'ChannelTextAreaButtons', false);
 ```
 
-now let me explain HOW i get this. FIRST if you look at that picture again and YOU can see that it says memo. IF It says memo it is most likley exported as a memo SO you cant simply do `getModuleByDisplayName` that wont wrok because its a memo. SO what does a memo functional component look like? well it looks like this wigga boy
+now let me explain HOW i get this. FIRST if you look at that picture again and YOU can see that it says memo. IF It says memo it is most likley exported as a memo SO you cant simply do `getModuleByDisplayName` that wont wrok because its a memo. SO what does a memo functional component look like? well it looks like this boy
 
 ![](https://i.imgur.com/auUdT5k.png)
 
